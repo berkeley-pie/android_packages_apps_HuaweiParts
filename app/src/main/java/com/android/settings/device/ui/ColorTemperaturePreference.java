@@ -7,6 +7,7 @@ import android.util.AttributeSet;
 
 import com.android.settings.device.DeviceSettings;
 import com.android.settings.device.R;
+import com.android.settings.device.DisplayEngineController;
 
 public class ColorTemperaturePreference extends DialogPreference {
 
@@ -26,6 +27,7 @@ public class ColorTemperaturePreference extends DialogPreference {
     }
 
     public void setValue(int value) {
+        DisplayEngineController.sHwPowerManager.nativeSetColorTemperature(value);
         Settings.Secure.putInt(mContext.getContentResolver(), DeviceSettings.COLOR_TEMPERATURE_KEY, value);
     }
 

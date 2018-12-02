@@ -1,13 +1,9 @@
 package com.android.settings.device;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
-import android.support.v7.preference.DialogPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
-import android.support.v7.preference.PreferenceManager;
 
 import com.android.settings.device.ui.ColorTemperatureDialogFragment;
 import com.android.settings.device.ui.ColorTemperaturePreference;
