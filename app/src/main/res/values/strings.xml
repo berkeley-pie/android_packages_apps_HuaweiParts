@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HuaweiParts</string>
+    <string name="device_settings">Device settings</string>
+
+    <!-- Display features strings -->
+    <string name="category_display">Display</string>
+    <string name="color_modes_title">Color mode</string>
+    <string name="color_modes_summary">%s</string>
+    <string name="color_mode_normal">Normal</string>
+    <string name="color_mode_vivid">Vivid</string>
+    <string name="color_temperature_title">Color temperature</string>
+    <string name="color_temperature_summary">Adjust the color temperature</string>
+
+    <!-- Touchscreen features strings -->
+    <string name="category_touchscreen">Touchscreen</string>
+    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+
+    <!-- Other strings -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_default">Default</string>
+</resources>

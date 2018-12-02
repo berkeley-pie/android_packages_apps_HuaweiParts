@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_modes" translatable="false">
+        <item>@string/color_mode_normal</item>
+        <item>@string/color_mode_vivid</item>
+    </string-array>
+
+    <string-array name="color_modes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
